@@ -2,6 +2,15 @@
     margin-top: 8em;
 }
 #card-negativo{
-    margin-top: -20em;
-
+    margin-top: -9em;
+}
+body{
+    background: #3175;
+}
+.colornv{
+    background: #3175;
+}
+#colorBC{
+    background: rgba(51, 17, 119, 0.863);
+    color: white;
 }

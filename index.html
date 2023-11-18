@@ -28,10 +28,10 @@
 
 <body>
     <Header>
-        <nav class="navbar navbar-expand-lg bg-cor-menu bg-secondary">
+        <nav class="navbar navbar-expand-lg bg-cor-menu colornv">
             <section class="container py-3">
                 <a href="" class="navbar-brand">
-                    <img src="IMAGES/poze.jpg" width="40rem" height="13rem" alt="" class="img-fluid">
+                    <img src="IMAGES/abobo.png" width="40rem" height="13rem" alt="" class="img-fluid">
                     <span>AgendaCRUD</span></a>
                 
                 <!-- Definição do botão do menu hamburguer -->
@@ -105,7 +105,7 @@
 
                     <section class="carousel-inner">
                         <section class="carousel-item active">
-                            <img src="IMAGES/freefire.jpg" alt="" class="d-block w-100">
+                            <img src="IMAGES/sacibg.png" alt="" class="d-block w-100">
                             <section class="carousel-caption">
                             <a href="#" class="btn btn-danger">
                                 <h4>Clique aqui</h4>
@@ -114,7 +114,7 @@
                         </section>
 
                         <section class="carousel-item">
-                            <img src="IMAGES/freefire.jpg" alt="" class="d-block w-100">
+                            <img src="IMAGES/sacibg.png" alt="" class="d-block w-100">
                             <section class="carousel-caption">
                             <a href="#" class="btn btn-danger">
                                 <h4>Clique aqui</h4>
@@ -123,7 +123,7 @@
                         </section>
 
                         <section class="carousel-item">
-                            <img src="IMAGES/freefire.jpg" alt="" class="d-block w-100">
+                            <img src="IMAGES/sacibg.png" alt="" class="d-block w-100">
                             <section class="carousel-caption">
                             <a href="#" class="btn btn-danger">
                                 <h4>Clique aqui</h4>
@@ -148,33 +148,208 @@
             <section class="container" id="container-banner">
                 <section class="row">
 
-                <section class="col-12 col-lg-3">  
+                <section class="col-12 col-lg-4">
+
                     <section class="card" id="card-negativo">
-                        <img src="IMAGES/poze.jpg" alt="" class="image-fluid">
-                        <section class="card-body">
-                            <h4 class="card-title">Bazinga é mt epico</h4>
-                            <p class="card-text">veja como bazinga se tornou algo normal e aceito pela sociedade. </p>
-                            <a href="" class="btn btn-success">Inserir</a>
-                            <a href="" class="btn btn-outline-success">Salvar</a>
+                        <img src="IMAGES/abo.png" alt="" class="image-fluid">
+                        <section class="card-body" id="colorBC">
+                            <h4 class="card-title">Halloween 2023</h4>
+                            <p class="card-text">veja como Halloween se tornou algo normal e aceito pela sociedade. </p>
+                            <center><a href="#" class="btn btn-secondary">Deletar</a>
+
+                        </section>
+                    </section>
+
+                </section>
+
+                <section class="col-12 col-lg-4">
+
+                    <section class="card" id="card-negativo">
+                        <img src="IMAGES/abo.png" alt="" class="image-fluid">
+                        <section class="card-body" id="colorBC">
+                            <h4 class="card-title">Halloween 2023</h4>
+                            <p class="card-text">veja como Halloween se tornou algo normal e aceito pela sociedade. </p>
+                            <button type="button" class="btn btn-success col-md-6 me-2" data-bs-toggle="modal"
+                                    data-bs-target="#modalCreate">Cadastrar
+                                </button>
+                                <button type="button" class="btn btn-primary col-md-4 me-2" data-bs-toggle="modal"
+                                data-bs-target="#modalView">Listar
+                            </button>
+                        </section>
+                    </section>
+
+                </section>
+
+                <section class="col-12 col-lg-4">
+
+                    <section class="card" id="card-negativo">
+                        <img src="IMAGES/abo.png" alt="" class="image-fluid">
+                        <section class="card-body" id="colorBC">
+                            <h4 class="card-title">Halloween 2023</h4>
+                            <p class="card-text">veja como Halloween se tornou algo normal e aceito pela sociedade. </p>
+                            <a href="" class="btn btn-warning col-md-12 me-2">Atualizar</a>
+                        </section>
+                    </section>
+
+                </section>
+
+
+                <!-- Forms -->
+
+                <section class="modal" id="modalView" tabindex="-1">
+                    <section class="modal-dialog modal-xl">
+                        <section class="modal-content">
+                            <section class="modal-header">
+                                <h5 class="modal-title">Relação de clientes</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </section>
+                            <section class="modal-body bg-cor-menu">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">CPF</th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">RG</th>
+                                            <th scope="col">Nascimento</th>
+                                            <th scope="col">Telefone</th>
+                                            <th scope="col">E-mail</th>
+                                            <th scope="col">Situação</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">111.111.111-11</th>
+                                            <td>Fulano de Tal</td>
+                                            <td>15.256.145-X</td>
+                                            <td>01/01/2000</td>
+                                            <td>(17) 99999-9999</td>
+                                            <td>fulano@gmeil.com</td>
+                                            <td>Ativo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">222.222.222-22</th>
+                                            <td>Beltrano da Silva</td>
+                                            <td>11.005.008-0</td>
+                                            <td>12/08/1995</td>
+                                            <td>(14) 88888-8885</td>
+                                            <td>silva.beltrano@ymail.com.br</td>
+                                            <td>Ativo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">333.333.333-33</th>
+                                            <td>Sicrano de Souza Jr</td>
+                                            <td>44.445.785-2</td>
+                                            <td>30/10/2001</td>
+                                            <td>(18) 77885-3322</td>
+                                            <td>sicranojr@outtlok.com</td>
+                                            <td>Inativo</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+            
+                            </section>
+            
+                            <section class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Salvar</button>
+                            </section>
                         </section>
                     </section>
                 </section>
-
-                <section class="col-12 col-lg-3">
-
+            
+                <!-- Modal -->
+                <section class="modal fade" id="modalCreate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <section class="modal-dialog modal-dialog-centered modal-lg">
+                        <section class="modal-content">
+                            <section class="modal-header">
+                                <h1 class="modal-title fs-5" id="mensagem">Novo Cliente</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </section>
+                            <section class="modal-body bg-crud">
+                                <form>
+                                    <section class="form-group row">
+                                        <section class="form-group col-md-3">
+                                            <label for="inputCPF">CPF</label>
+                                            <input type="text" class="form-control" id="inputCPF" maxlength="11" data-index="new"
+                                                placeholder="CPF">
+                                        </section>
+            
+                                        <section class="form-group col-md-6">
+                                            <label for="inputNome">Nome</label>
+                                            <input type="text" class="form-control" id="inputNome" data-index="new"
+                                                placeholder="Nome">
+                                        </section>
+            
+                                        <section class="form-group col-md-3">
+                                            <label for="inputRG">RG</label>
+                                            <input type="text" class="form-control" id="inputRG" data-index="new" placeholder="RG">
+                                        </section>
+                                    </section>
+            
+                                    <section class="form-group row mt-4">
+                                        <section class="form-group col-md-3">
+                                            <label for="inputDataNasc">Nascimento</label>
+                                            <input type="date" class="form-control" data-index="new" id="inputDataNasc">
+                                        </section>
+            
+                                        <section class="form-group col-md-6">
+                                            <label for="inputEndereco">Endereço</label>
+                                            <input type="text" class="form-control" data-index="new" id="inputEndereco">
+                                        </section>
+            
+                                        <section class="form-group col-md-3">
+                                            <label for="inputBairro">Bairro</label>
+                                            <input type="text" class="form-control" data-index="new" id="inputBairro">
+                                        </section>
+                                    </section>
+            
+                                    <section class="form-group row mt-4">
+                                        <section class="form-group col-md-3">
+                                            <label for="inputCEP">CEP</label>
+                                            <input type="text" class="form-control" data-index="new" id="inputCEP">
+                                        </section>
+            
+                                        <section class="form-group col-md-3">
+                                            <label for="inputCidade">Cidade</label>
+                                            <input type="text" class="form-control" data-index="new" id="inputCidade">
+                                        </section>
+            
+                                        <section class="form-group col-md-3">
+                                            <label for="inputEstado">Estado</label>
+                                            <select id="inputEstado" data-index="new" class="form-control">
+                                                <option selected>Escolher...</option>
+                                                <option>...</option>
+                                            </select>
+                                        </section>
+            
+                                        <section class="form-group col-md-3">
+                                            <label for="inputTelefone">Telefone</label>
+                                            <input type="tel" class="form-control" data-index="new" id="inputTelefone">
+                                        </section>
+                                    </section>
+            
+                                    <section class="form-group row mt-4">
+                                        <section class="form-group col-md-6">
+                                            <label for="inputEmail">E-mail</label>
+                                            <input type="email" class="form-control" data-index="new" id="inputEmail">
+                                        </section>
+            
+                                        <section class="form-group col-md-6">
+                                            <label for="inputFile">Foto</label>
+                                            <input type="file" class="form-control" data-index="new" id="inputFile">
+                                        </section>
+                                    </section>
+                                </form>
+                            </section>
+            
+                            <section class="modal-footer">
+                                <button type="reset" class="btn btn-danger" id="limpar">Limpar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="submit" class="btn btn-primary" id="salvar">Salvar</button>
+                            </section>
+                        </section>
+                    </section>
                 </section>
-
-                <section class="col-12 col-lg-3">
-
-                </section>
-
-                <section class="col-12 col-lg-3">
-
-                </section>
-
-            </section>
-            </section>
-
         </main>
     <footer>
 
